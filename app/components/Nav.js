@@ -6,17 +6,17 @@ function Nav () {
 	return (
 		<ul className='nav'>
 			<li key="home">
-				<NavLink activeClassName='active' to="/" >
+				<NavLink exact activeClassName='active' to="/" >
 					Home
 				</NavLink>
 			</li>
 			<li key="battle">
-				<NavLink activeClassName='active' to="/battle">
+				<NavLink exact activeClassName='active' to="/battle">
 					Battle
 				</NavLink>
 			</li>
 			<li key="popular">
-				<NavLink activeClassName='active' to="/popular">
+				<NavLink exact activeClassName='active' to="/popular">
 					Popular
 				</NavLink>
 			</li>
