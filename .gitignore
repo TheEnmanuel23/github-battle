@@ -88,3 +88,5 @@ uploads/*
 
 # CREDENCIALES DE AMAZON S3
 env.sh
+
+.vscode/
