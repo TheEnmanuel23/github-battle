@@ -14,7 +14,7 @@ class PlayerInput extends React.Component {
   }
 
   handleChange (event) {
-    var value = evenet.target.value
+    var value = event.target.value
 
     this.setState(function () {
       return {
